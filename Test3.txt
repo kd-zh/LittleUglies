@@ -1,0 +1,7 @@
+Name: Tleilaxu
+Nickname: (opt) Lei
+Colour: Mutant
+Species: Ixi
+Main: candy_fizz
+Name: (optional) Candy
+Blurb: (optional) Such a cute boy!

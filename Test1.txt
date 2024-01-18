@@ -1,0 +1,7 @@
+Name of pet: Tleilaxu
+Nickname of pet: (optional) Lei
+Colour: Mutant
+Species: Ixi
+Your main account: candy_fizz
+Your name: (optional)
+Blurb: (optional) Such a cute boy!
