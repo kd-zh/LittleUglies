@@ -23,7 +23,8 @@ def test_function(req: func.HttpRequest, toDoItems: func.Out[func.SqlRow]) -> fu
 
     if name:
         toDoItems.set(func.SqlRow({"Id": str(uuid.uuid4()), "title": name, "completed": False, "url": ""}))
-        return func.HttpResponse(f"Hello {name}!")
+        logging.info(f"Hello {name}!")
+        return func.HttpResponse(f"Written to the database: {name}")
     else:
         return func.HttpResponse(
                     "Please pass a name on the query string or in the request body",
